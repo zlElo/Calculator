@@ -19,7 +19,7 @@ You have to install Python3. You can install it with this commands:
 
 - For Ubuntu
 ```
-$ sudo apt-get install python3
+$ sudo apt-get install python3 
 ```
 
 - For red Hat
