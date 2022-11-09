@@ -5,7 +5,8 @@ import customtkinter
 # GitHub: github.com/zlElo
 
 app = customtkinter.CTk()
-app.geometry('234x245')
+app.minsize(234, 245)
+app.maxsize(234, 245)
 app.title('Calculator')
 customtkinter.set_default_color_theme("green")
 

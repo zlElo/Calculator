@@ -5,7 +5,8 @@ import customtkinter
 # GitHub: github.com/zlElo
 
 app = customtkinter.CTk()
-app.geometry('234x245')
+app.minsize(234, 245)
+app.maxsize(234, 245)
 app.title('Calculator')
 customtkinter.set_default_color_theme("green")
 app.iconbitmap('icon_calculator.ico')
@@ -56,7 +57,7 @@ for val in button_values:
     create_button(val)
 
 #Creates the delet Button
-button2 = customtkinter.CTkButton(text='Delet', command=Button2Action, width=170, fg_color="red", hover_color="#FF769c").place(x=33, y=205)
+button2 = customtkinter.CTkButton(text='Delete', command=Button2Action, width=170, fg_color="red", hover_color="#FF769c").place(x=33, y=205)
 
 #There stays the result
 output_label = customtkinter.CTkLabel(text = '')
