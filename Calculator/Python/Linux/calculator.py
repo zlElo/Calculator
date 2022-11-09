@@ -55,7 +55,7 @@ for val in button_values:
     create_button(val)
 
 #Creates the delet Button
-button2 = customtkinter.CTkButton(text='Delet', command=Button2Action, width=170, fg_color="red", hover_color="#FF769c").place(x=33, y=205)
+button2 = customtkinter.CTkButton(text='Delete', command=Button2Action, width=170, fg_color="red", hover_color="#FF769c").place(x=33, y=205)
 
 #There stays the result
 output_label = customtkinter.CTkLabel(text = '')
