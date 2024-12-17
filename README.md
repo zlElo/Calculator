@@ -36,6 +36,6 @@ $ python3 calculator.py
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Picture of the newest Version:
+## Picture 📸:
 
 ![Picture 2](https://raw.githubusercontent.com/zlElo/Calculator/main/Calculator/pictures/picture%202.png)
